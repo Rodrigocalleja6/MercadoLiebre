@@ -23,27 +23,28 @@
         <form action="/register" method="get">
           <!-- Nombre y apellido -->
           <div class="name-subname">
-            <label for="nombre-apellido">Nombre y apellido</label>
+            <!-- <label for="nombre-apellido">Nombre y apellido</label> -->
             <input
               type="text"
               name="nombre"
               id="nombre-apellido"
-              placeholder="Juan Perez"
+              placeholder="Nombre Completo"
             />
           </div>
           <!-- Nombre de usuario -->
           <div class="nickname">
-            <label for="nombre-usuario">Nombre de usuario</label>
-            <input type="text" name="nombre-usuario" id="nombre-usuario" />
+            <!-- <label for="nombre-usuario">Nombre de usuario</label> -->
+            <input type="text" name="nombre-usuario" id="nombre-usuario"
+            placeholder="Usuario" />
           </div>
           <!-- Email -->
           <div class="email">
-            <label for="email">Email</label>
+            <!--  <label for="email">Email</label> --> 
             <input
-              type="text"
+              type="email"
               id="email"
               name="email"
-              placeholder="example@example.com"
+              placeholder="Email"
             />
           </div>
           <!-- Fecha nacimiento -->
@@ -65,7 +66,7 @@
           </div>
           <!-- Domicilio -->
           <div class="home-direction">
-            <label for="domicilio">Domicilio</label>
+            <!-- <label for="domicilio">Domicilio</label> -->
             <input
               type="text"
               name="domicilio"
@@ -99,24 +100,13 @@
           </div>
           <!-- Contraseña -->
           <div class="password">
-            <label for="pass">Contraseña</label>
-            <input type="password" id="pass" name="password" />
+            <!-- <label for="pass">Contraseña</label> -->
+            <input type="password" id="pass" name="password" placeholder="Contraseña"/>
           </div>
           <!-- Confirmar contraseña -->
           <div class="confirm-pass">
-            <label for="confirmar-pass">Confirmar contraseña</label>
-            <input
-              type="radio"
-              name="confirmar-pass"
-              id="confirmar-pass"
-              value="Si"
-            />Si
-            <input
-              type="radio"
-              name="confirmar-pass"
-              id="confirmar-pass"
-              value="No"
-            />No
+            <!-- <label for="confirmar-pass">Confirmar contraseña</label> -->
+           <input type="password" name="confirmar-pass" id="confirmar-pass" placeholder="Confirmar Contraseña"/>
           </div>
           <!-- Boton de enviar -->
           <div class="send-delete">
